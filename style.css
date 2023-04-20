@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Dongle', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+#homepage{
+    background-image: url('istockphoto-1344257083-170667a.jpg');
+    background-size: cover;
+    background-position: fixed;
+    width:100%;
+    height:100vh;
+}
+/* nav{
+    float:right;
+    margin-top:15px;
+}
+nav a{
+    text-decoration:none;
+    font-style: bold;
+    font-size: 25px;
+    color:black;
+    padding:20px;
+    
+
+} */
+nav a:hover:not(#pro){
+    background-color:rgb(0,0,0,0.6);
+    color:white;
+    border-radius:30px;
+    
+   
+}
+header{
+  
+    height:50px;
+    width:100%;
+    background-color: white;
+    margin-top: -20px;
+}
+
+#home{
+    font-size: 40px;
+    color:rgb(70, 64, 64);
+    margin-top: 230px;
+    margin-left: 200px;
+    float:right;
+    background-color:linear-gradient(0,0,0,10);
+    border-radius: 30px;
+    height:300px;
+    width:540px;
+   padding:20px;
+
+}
+#home button {
+    background-color:rgb(70, 64, 64) ;
+    color:white
+}
+#aboutus{
+   
+    background-color: whitesmoke;
+    word-spacing: 10px;
+    
+}
+#skills{
+    background-color: whitesmoke; 
+}
+#education{
+    background-color: whitesmoke; 
+}
+#experience{
+    background-color: whitesmoke; 
+}
+#contact{
+    background-color: whitesmoke; 
+}
+#footer{
+    background-color: rgba(172, 160, 160, 0.836); 
+}
